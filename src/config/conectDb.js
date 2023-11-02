@@ -4,7 +4,7 @@ dotenv.config()
 
 const port = process.env.DB_PORT
 const user = process.env.DB_USER
-const pass = process.env.DB_PASS
+const pass = process.env.DB_PASSWORD
 
 const mongo_Url= `mongodb+srv://${user}:${pass}@leads.bbiey0t.mongodb.net/`
 const options = {
