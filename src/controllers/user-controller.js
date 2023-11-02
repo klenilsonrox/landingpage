@@ -11,14 +11,6 @@ export const getAllUsers = async (req,res)=>{
     }
 }
 
-export const findOneUser = async (req,res)=>{
-    try{
-
-    }catch(error){
-        console.log(error)
-        res.status(500).json(error)
-    }
-}
 
 export const createUser = async (req,res)=>{
     const {name,email,whatsapp}= req.body
